@@ -15,23 +15,11 @@ public class DataClass {
         return data_string;
     }
 
-    public void setData_string(String data_string) {
-        this.data_string = data_string;
-    }
-
     public int getData_int() {
         return data_int;
     }
 
-    public void setData_int(int data_int) {
-        this.data_int = data_int;
-    }
-
-    public double getData_float() {
+    public double getData_double() {
         return data_double;
-    }
-
-    public void setData_float(float data_float) {
-        this.data_double = data_float;
     }
 }

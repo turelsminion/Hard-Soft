@@ -10,39 +10,39 @@
         android:id="@+id/string_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_150sdp"
         android:text="Hello string"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="40dp"
+        android:textColor="#000"
+        android:textSize="@dimen/_35sdp"
         android:textStyle="bold"
-        android:textSize="30dp"
-        android:textColor="#000"/>
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/int_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp"
         android:text="Hello int!"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/string_view"
-        android:layout_marginTop="40dp"
+        android:textColor="#000"
+        android:textSize="@dimen/_35sdp"
         android:textStyle="bold"
-        android:textSize="30dp"
-        android:textColor="#000"/>
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/string_view" />
 
     <TextView
         android:id="@+id/double_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp"
         android:text="Hello double!"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/int_view"
-        android:layout_marginTop="40dp"
+        android:textColor="#000"
+        android:textSize="@dimen/_35sdp"
         android:textStyle="bold"
-        android:textSize="30dp"
-        android:textColor="#000"/>
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/int_view" />
 
 </android.support.constraint.ConstraintLayout>
