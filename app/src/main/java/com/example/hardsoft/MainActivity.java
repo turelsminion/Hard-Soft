@@ -14,9 +14,6 @@ public class MainActivity extends AppCompatActivity {
     TextView string_view;
     TextView int_view;
     TextView double_view;
-    Button but1;
-    ProgressBar victor;
-    Button daniel_echipa_adversa;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,44 +21,7 @@ public class MainActivity extends AppCompatActivity {
         my_data_object = new DataClass("hello", 10, 101.5);
         string_view = findViewById(R.id.string_view);
         int_view = findViewById(R.id.int_view);
-        double_view = findViewById(R.id.float_view);
-        but1=findViewById(R.id.button);
-        victor = findViewById(R.id.progressBar2);
-        daniel_echipa_adversa = findViewById(R.id.button2);
-        but1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                victor.incrementProgressBy(10);
-                if(victor.getProgress() > 50)
-                {
-                    string_view.setText("Victor win");
-                }
-                else
-                {
-                    string_view.setText("Daniel win");
-                }
-            }
+        double_view = findViewById(R.id.double_view);
 
-        });
-
-
-
-        daniel_echipa_adversa.setOnClickListener(new View.OnClickListener() {
-                                                     @Override
-                                                     public void onClick(View v) {
-                                                         victor.incrementProgressBy(-10);
-                                                         if(victor.getProgress() > 50)
-                                                         {
-                                                             string_view.setText("Victor win");
-                                                         }
-                                                         else
-                                                         {
-                                                             string_view.setText("Daniel win");
-                                                         }
-                                                     }
-                                                 }
-
-
-        );
     }
 }
