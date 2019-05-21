@@ -117,19 +117,19 @@ public class CodeActivity extends Activity {
         remove_command.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(CodeActivity.this, "remove_command", Toast.LENGTH_SHORT).show();
+                commands.add("removeCommand");
             }
         });
         clear_commands.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(CodeActivity.this, "clear_commands", Toast.LENGTH_SHORT).show();
+                commands.add("clearCommand");
             }
         });
         stop.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(CodeActivity.this, "stop", Toast.LENGTH_SHORT).show();
+                commands.add("stopCommand");
             }
         });
 
@@ -141,10 +141,6 @@ public class CodeActivity extends Activity {
                 finish();
             }
         });
-
-        for (String s : commands){
-
-        }
 
     }
 }
