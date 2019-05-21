@@ -93,19 +93,19 @@ public class CodeActivity extends Activity {
         measure_temp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(CodeActivity.this, "measure_temp", Toast.LENGTH_SHORT).show();
+                commands.add("measureTemperature");
             }
         });
         measure_pressure.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(CodeActivity.this, "measure_pressure", Toast.LENGTH_SHORT).show();
+                commands.add("measurePressure");
             }
         });
         measure_humidity.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(CodeActivity.this, "measure_humidity", Toast.LENGTH_SHORT).show();
+                commands.add("measureHumidity");
             }
         });
         execute.setOnClickListener(new View.OnClickListener() {

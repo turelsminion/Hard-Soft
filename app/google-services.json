@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "216385613455",
+    "firebase_url": "https://hardsoft-fe533.firebaseio.com",
+    "project_id": "hardsoft-fe533",
+    "storage_bucket": "hardsoft-fe533.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:216385613455:android:062d71c72fcae25f",
+        "android_client_info": {
+          "package_name": "com.example.hardsoft"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "216385613455-qr51sjfbtodot2jct7tm6v2982chfv7h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hardsoft",
+            "certificate_hash": "9958d02e58bc0b18084891f2c5ccddb362a806f1"
+          }
+        },
+        {
+          "client_id": "216385613455-inj1nv1n3e3lsm3dhcnu6550ekm85fdf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBt_eSM5aAX8X6PfKgrM_5Sd-QnTKkWn0s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "216385613455-inj1nv1n3e3lsm3dhcnu6550ekm85fdf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
