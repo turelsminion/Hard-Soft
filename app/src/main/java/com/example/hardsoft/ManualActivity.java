@@ -262,6 +262,24 @@ public class ManualActivity extends AppCompatActivity {
             }
         });
 
+        action3.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                if (event.getAction() == MotionEvent.ACTION_DOWN ) {
+                    if (vibration_switch.isChecked()){
+                        myVib.vibrate(50);
+                    }
+                    direction.setValue(7);
+                    return true;
+                }
+                else if (event.getAction() == MotionEvent.ACTION_UP) {
+                    direction.setValue(0);
+                    return true;
+                }
+                return false;
+            }
+        });
+
     }
 
     @Override
