@@ -111,7 +111,7 @@ public class CodeActivity extends Activity {
         execute.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(CodeActivity.this, "execute", Toast.LENGTH_SHORT).show();
+                commands.add("execute");
             }
         });
         remove_command.setOnClickListener(new View.OnClickListener() {
