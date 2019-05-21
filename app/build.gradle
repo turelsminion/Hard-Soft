@@ -1,4 +1,5 @@
 apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
 
 android {
     compileSdkVersion 28
@@ -28,4 +29,9 @@ dependencies {
 
     //SDP for all screen sizes
     implementation 'com.intuit.sdp:sdp-android:1.0.6'
+    //Firebase real-time data transfer
+    implementation 'com.google.firebase:firebase-database:17.0.0'
+    //Firestore
+    implementation 'com.google.firebase:firebase-firestore:19.0.0'
+
 }
