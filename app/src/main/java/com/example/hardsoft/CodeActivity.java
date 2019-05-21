@@ -111,7 +111,7 @@ public class CodeActivity extends Activity {
         execute.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(CodeActivity.this, "execute", Toast.LENGTH_SHORT).show();
+                commands.add("execute");
             }
         });
         remove_command.setOnClickListener(new View.OnClickListener() {
@@ -123,7 +123,7 @@ public class CodeActivity extends Activity {
         clear_commands.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(CodeActivity.this, "clear_commands", Toast.LENGTH_SHORT).show();
+                commands.add("clearCommands");
             }
         });
         stop.setOnClickListener(new View.OnClickListener() {
